@@ -21,12 +21,6 @@
   <div class="banner"><canvas id="bannerCanvas" role="img" aria-label="Red geometric embroidery pattern"></canvas></div>
 
   <div class="container">
-    <div class="view-toggle" role="group" aria-label="Choose view">
-      <button type="button" data-view-btn="human" aria-pressed="true">Human</button>
-      <span aria-hidden="true">|</span>
-      <button type="button" data-view-btn="machine" aria-pressed="false">Machine</button>
-    </div>
-
     <div id="human-view">
     <h1>Soumik Mondal</h1>
 
@@ -68,11 +62,27 @@
     </div>
 
     <section id="machine-view" hidden>
-      <button id="machine-copy" type="button">Copy markdown</button>
+      <div class="mv-bar">
+        <span id="machine-meter">index.md</span>
+        <button id="machine-copy" type="button">Copy for your AI</button>
+      </div>
       <pre id="machine-content" tabindex="0"></pre>
+      <p class="mv-cta">
+        Paste it into your AI. Ask it if we should talk.<br>
+        <a class="btn" href="mailto:soumik.workmail@gmail.com?subject=Hello%20Soumik">Or just say hi &rarr;</a>
+      </p>
       <noscript><p><a href="/index.md">Read the markdown version</a></p></noscript>
     </section>
   </div>
+
+  <nav class="dock" aria-label="Choose how to read this page">
+    <span class="dock-label" aria-hidden="true">read as</span>
+    <div class="switch" role="group" aria-label="View">
+      <span class="thumb" aria-hidden="true"></span>
+      <button type="button" data-view-btn="human" aria-pressed="true">Human</button>
+      <button type="button" data-view-btn="machine" aria-pressed="false">Machine</button>
+    </div>
+  </nav>
 
   <script src="assets/banner.js"></script>
   <script src="machine-view.js" defer></script>
