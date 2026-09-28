@@ -1,0 +1,9 @@
+# Soumik Mondal
+
+> AI engineer (B.Tech CSE student, India) who works with the best available models to build AI products that remove friction. Open to founding-team projects.
+
+The full portfolio, in plain markdown with no visual design, is at the first link below. It has the same content as the human page.
+
+- [Full portfolio (markdown)](https://soumikmondal.vercel.app/index.md): profile, projects with stack and links, skills, contact
+- [Human version](https://soumikmondal.vercel.app/): the designed page
+- [GitHub](https://github.com/s0um1kx): code

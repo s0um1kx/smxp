@@ -13,6 +13,7 @@
 
   
   <link rel="stylesheet" href="style.css">
+  <link rel="alternate" type="text/markdown" href="/index.md">
   
 </head>
 <body>
@@ -20,6 +21,13 @@
   <div class="banner"><canvas id="bannerCanvas" role="img" aria-label="Red geometric embroidery pattern"></canvas></div>
 
   <div class="container">
+    <div class="view-toggle" role="group" aria-label="Choose view">
+      <button type="button" data-view-btn="human" aria-pressed="true">Human</button>
+      <span aria-hidden="true">|</span>
+      <button type="button" data-view-btn="machine" aria-pressed="false">Machine</button>
+    </div>
+
+    <div id="human-view">
     <h1>Soumik Mondal</h1>
 
     <p class="tagline">This is less about what I've done and more about what I'm becoming.</p>
@@ -57,8 +65,16 @@
       I'm interested in AI products that are useful & kill friction. Mostly Python and interface design (user friendly >> complicated). Cha is mandatory. Luchi–alur dum is a bonus.
       
     </p>
+    </div>
+
+    <section id="machine-view" hidden>
+      <button id="machine-copy" type="button">Copy markdown</button>
+      <pre id="machine-content" tabindex="0"></pre>
+      <noscript><p><a href="/index.md">Read the markdown version</a></p></noscript>
+    </section>
   </div>
 
   <script src="assets/banner.js"></script>
+  <script src="machine-view.js" defer></script>
 </body>
 </html>

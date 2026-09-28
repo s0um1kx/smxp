@@ -68,3 +68,64 @@ p.bio {
   margin-top: 40px;
   font-size: 0.95rem;
 }
+
+
+/* ---- Human | Machine toggle ---- */
+.view-toggle {
+  margin-bottom: 20px;
+}
+
+.view-toggle button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.view-toggle button::before {
+  content: "[ ] ";
+}
+
+.view-toggle button[aria-pressed="true"]::before {
+  content: "[x] ";
+}
+
+.view-toggle button:hover {
+  text-decoration: underline;
+}
+
+.view-toggle button:focus-visible,
+#machine-copy:focus-visible,
+#machine-content:focus-visible {
+  outline: 2px solid #0000FF;
+  outline-offset: 2px;
+}
+
+#human-view[hidden],
+#machine-view[hidden] {
+  display: none;
+}
+
+#machine-copy {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 1px solid #000000;
+  padding: 4px 12px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+#machine-content {
+  text-align: left;
+  font-family: inherit;
+  font-size: 0.85rem;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  border: 1px solid #000000;
+  padding: 16px;
+  margin: 0;
+}
