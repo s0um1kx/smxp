@@ -6,7 +6,7 @@
   var W, H, tileW, tileH;
   var img = new Image();
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  img.src = 'pattern-tile.png';
+  img.src = 'assets/pattern-tile.png';
 
   function build(){
     var rect = canvas.getBoundingClientRect();
