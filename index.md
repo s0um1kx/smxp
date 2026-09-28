@@ -89,7 +89,7 @@ I work mostly in Python, and I care about interface design: user-friendly beats 
 - Friendly and emotionally available; I care a lot about the people I work with.
 - I work well in a team.
 - I love watching esports.
-- I don't believe in work-life balance.
+- I work long hours on things I care about.
 
 ## Links
 
