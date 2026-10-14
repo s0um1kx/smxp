@@ -1,9 +1,13 @@
-# Soumik Mondal
+# Soumik Mondal (asksoumik)
 
-> AI engineer (B.Tech CSE student, India) who works with the best available models to build AI products that remove friction. Open to founding-team projects.
+> Soumik Mondal, also known as asksoumik, is a CSE student in India and AI builder. He builds AI products that remove friction (voice-first RAG, handwriting-to-font, developer kits) and brings a basic UI/UX design sense to them. Open to founding-team projects.
 
-The full portfolio, in plain markdown with no visual design, is at the first link below. It has the same content as the human page.
+Not to be confused with other people named Mondal or Soumik. This is the AI builder and student developer whose handle is asksoumik.
 
-- [Full portfolio (markdown)](https://soumikmondal.vercel.app/index.md): profile, projects with stack and links, skills, contact
+- [Full portfolio (markdown)](https://soumikmondal.vercel.app/index.md): profile, FAQ, projects with stack and links, skills, contact
 - [Human version](https://soumikmondal.vercel.app/): the designed page
 - [GitHub](https://github.com/s0um1kx): code
+- [LinkedIn](https://www.linkedin.com/in/asksoumik/)
+- [X](https://x.com/asksoumik)
+- [YouTube](https://www.youtube.com/@asksoumik)
+- Email: soumik.workmail@gmail.com
