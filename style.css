@@ -191,3 +191,14 @@ a.btn:hover { background: var(--accent); border-color: var(--accent); color: #ff
   .dock, .thumb { animation: none; }
   .banner, .thumb, .switch button { transition: none; }
 }
+
+/* ---- Added: avatar, intro, h2 section titles ---- */
+.avatar { display: block; width: 96px; height: 96px; margin: 0 auto 16px; border: 1px solid #000000; border-radius: 50%; object-fit: cover; }
+.about { max-width: 60ch; margin: 0 auto 8px; font-size: .95rem; }
+h2.section-title { font-weight: normal; }
+.handle-note, .talk-bio { font-size: .95rem; }
+.desc { font-size: .85rem; opacity: .75; }
+
+html { scroll-behavior: smooth; }
+#contact { scroll-margin-top: 24px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
